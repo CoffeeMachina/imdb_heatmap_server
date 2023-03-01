@@ -1,0 +1,24 @@
+{
+  "name": "heatmap_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon -r esm server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "esm": "^3.2.25",
+    "express": "^4.18.2",
+    "generate-schema": "^2.6.0",
+    "mongoose": "^7.0.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20",
+    "npm": "^9.5.1"
+  }
+}
