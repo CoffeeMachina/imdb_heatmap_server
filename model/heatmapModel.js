@@ -1,16 +1,6 @@
 import mongoose from "mongoose";
-// import generateSchema from "generate-schema";
 const {Schema} = mongoose;
 const {ObjectId} = mongoose.Schema;
-
-// TESTING:
-// import generateSchema from "generate-schema";
-// import BCS from './BCS.json' assert {type: "json"};
-// let schema = generateSchema.json('heatmap',BCS )
-
-// console.log(schema)
-// const heatmapSchema = new Schema({schema});
-
 
 const heatmapSchema = new Schema({
     id: ObjectId,
@@ -53,4 +43,4 @@ const heatmapSchema = new Schema({
 })
 
 
-export default mongoose.model("imdb", heatmapSchema);
+export default mongoose.model("imdbs", heatmapSchema);
